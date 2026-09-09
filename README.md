@@ -1,16 +1,15 @@
 ## Hi there 👋
 
-<!--
-**Puji7tha/Puji7tha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Pujitha
 
-Here are some ideas to get you started:
+Digital design and verification, working entirely in open-source EDA.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Currently:** [100 Days of RTL](https://github.com/Puji7tha/100DaysOfRTL) — one design a day,
+each taken from RTL through simulation, verification, synthesis, and static timing analysis.
+Not just "does it simulate" — what does it cost in gates, in area, in nanoseconds?
+
+**Toolchain:** Verilog · Icarus · GTKWave · Yosys · OpenSTA · OpenROAD · Nangate45 / Sky130
+
+**Recent finding:** in an 8-bit ALU, a single `/` operator consumed 43% of the
+combinational area and set the critical path for all sixteen operations —
+capping Fmax at 110 MHz where the rest of the design could have run far faster.
